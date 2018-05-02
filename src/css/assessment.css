@@ -1,0 +1,222 @@
+.assessment-list, .assessment-result {
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+}
+.assessment-list > .header, .assessment-result > .header {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 16px 0;
+}
+.assessment-list > .content, .assessment-result > .content {
+    margin: 0;
+    padding: 0;
+}
+/*评估列表*/
+.assessment-list .content .assessment {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 12px;
+    padding: 16px;
+}
+.assessment-list .content .assessment .result {
+    font-weight: 600;
+}
+.assessment-list .content .assessment .result-low {
+    color: #0CBF7E;
+}
+.assessment-list .content .assessment .result-middle {
+    color: #F76565;
+}
+/*评估详情*/
+.assessment-result .content {
+    margin: 0 15px;
+}
+.assessment-result .result-item {
+    background-color: #0CBF7E;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 16px 0 16px 28px;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.assessment-result .item-logo {
+    width: 32px;
+    height: 32px;
+}
+.assessment-result .item-right {
+    margin-left: 28px;
+}
+.assessment-result .item-title {
+    font-size: 16px;
+    line-height: 16px;
+}
+.assessment-result .item-content {
+    font-size: 24px;
+    line-height: 24px;
+}
+.assessment-result .item-content > div {
+    margin-top: 16px;
+}
+.assessment-result .item-content-smoke {
+    font-size: 14px;
+    line-height: 14px;
+}
+.assessment-result .item-content-smoke span {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 4px;
+}
+.assessment-result .result-item-tips {
+    background-color: #ffbe0036;
+
+}
+.assessment-result .result-item-tips .item-right{
+    text-align: left;
+    font-size: 12px;
+    color: #888;
+    padding-right: 18px;
+}
+.assessment-result .tips-logo {
+    height: 16px;
+}
+/******提示或建议******/
+.tips-advice {
+    font-size: 16px;
+}
+.tips-advice .header {
+    padding: 16px 17px 16px 20px;
+    display: flex;
+    align-items: center;
+}
+.tips-advice .header .right-title {
+    text-align: right;
+    flex: 1;
+}
+.tips-advice .header .right-title > img {
+    margin-left: 12px;
+}
+.tips-advice .panel-content .title {
+    font-size: 18px;
+    padding: 8px 0;
+}
+/******提示或建议--风险提示*****/
+.risk-panel {
+    display: flex;
+}
+.risk-panel .risk-left {
+    flex: 1;
+}
+.risk-panel .risk-left-title {
+    padding: 14px 0 10px 0;
+    color: #4A4A4A;
+    text-align: left;
+}
+
+.risk-panel .risk-left-title img {
+    height: 16px;
+    margin-left: 4px;
+}
+.risk-panel .risk-left-content {
+    color: #fff;
+    display: flex;
+    padding: 10px 15px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #FF6966;
+}
+.risk-panel .risk-left-content-left {
+    text-align: left;
+    flex: 1;
+}
+.risk-panel .risk-left-content-left-data {
+    font-size: 20px;
+    line-height: 24px;
+}
+.risk-panel .risk-left-content-left-unit {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 8px;
+}
+.risk-panel .risk-left-content-right {
+    font-size: 18px;
+    line-height: 25px;
+}
+.risk-panel .risk-right {
+    width: 70px;
+    margin-left: 10px;
+
+}
+.risk-panel .risk-right-title {
+    font-size: 13px;
+    color: #9B9B9B;
+    padding: 20px 0 8px 0;
+}
+.risk-panel .risk-right-content {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #1CCAA8;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/******提示或建议--风险提示--模态框*****/
+.modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}
+.modal {
+    position: relative;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 10px;
+}
+.modal-body {
+    word-wrap:break-word;
+}
+.modal .modal-head {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.modal-content {
+    font-size: 14px;
+    line-height: 20px;
+    color: #888;
+    padding: 15px 0;
+    text-align: left;
+}
+/******提示或建议--健康建议*****/
+.health-panel {
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 16px 28px 10px 25px;
+    background-color: #55C0D0;
+    display: flex;
+}
+.health-panel-left {
+    width: 32px;
+    margin: 0;
+}
+.health-panel-left > figcaption {
+    font-size: 16px;
+}
+.health-panel-right {
+    text-align: left;
+    padding-left: 18px;
+    flex: 1;
+}
