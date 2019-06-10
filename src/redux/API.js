@@ -1,7 +1,8 @@
-import fetch from 'isomorphic-fetch';
+import 'whatwg-fetch';
+import 'es6-promise';
 
 const apiHost = process.env.REACT_APP_API_HOST;
-
+console.log(5, apiHost)
 class APIClient {
 
   config(method) {

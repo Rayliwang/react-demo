@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, HashRouter as Router, Switch, Redirect } from 'react-router-dom';
 
-import AssessmentList from './containers/AssessmentList';
+import AssessmentList from './containers/assessment/AssessmentList';
 
 const NoMatch = ({ location }) => (
   <div>

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getMoldList } from '../redux/action';
+import { getMoldList } from '../../redux/action';
 
+import './assessment.css';
 
 class AssessmentList extends Component {
 
